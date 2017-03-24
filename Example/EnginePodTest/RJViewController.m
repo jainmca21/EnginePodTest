@@ -7,7 +7,7 @@
 //
 
 #import "RJViewController.h"
-
+#import "EngineDemo.h"
 @interface RJViewController ()
 
 @end
@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSInteger sum = [EngineDemo sumOfValue:10 SecondValue:5];
+    NSLog(@"sum of value %li",(long)sum);
 }
 
 - (void)didReceiveMemoryWarning

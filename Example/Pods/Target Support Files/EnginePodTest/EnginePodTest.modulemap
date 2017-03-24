@@ -1,0 +1,6 @@
+framework module EnginePodTest {
+  umbrella header "EnginePodTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

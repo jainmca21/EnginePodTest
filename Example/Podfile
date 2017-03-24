@@ -4,8 +4,7 @@ target 'EnginePodTest_Example' do
   pod 'EnginePodTest', :path => '../'
 
   target 'EnginePodTest_Tests' do
-    inherit! :search_paths
-
+      pod 'EnginePodTest', :path => '../'
     
   end
 end
