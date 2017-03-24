@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EnginePodTest_Example' do
+  pod 'EnginePodTest', :path => '../'
+
+  target 'EnginePodTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
