@@ -9,7 +9,14 @@
 #import "EngineDemo.h"
 
 @implementation EngineDemo
+
+//Addition
 + (NSInteger)sumOfValue:(NSInteger)firstValue SecondValue:(NSInteger)secondValue{
     return firstValue + secondValue;
+}
+
+//Substraction
++ (CGFloat)subtractValueFrom:(CGFloat)firstValue toSecondValue:(CGFloat)secondValue{
+    return firstValue - secondValue;
 }
 @end
