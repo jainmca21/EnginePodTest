@@ -12,4 +12,8 @@
 + (NSInteger)sumOfValue:(NSInteger)firstValue SecondValue:(NSInteger)secondValue{
     return firstValue + secondValue;
 }
+
++ (CGFloat)subtractValueFrom:(CGFloat)firstValue toSecondValue:(CGFloat)secondValue{
+    return firstValue - secondValue;
+}
 @end

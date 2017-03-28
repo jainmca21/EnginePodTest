@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EnginePodTest'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of EnginePodTest.'
+  s.version          = '0.1.1'
+  s.summary          = 'EnginePodTest used for calcaulation.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

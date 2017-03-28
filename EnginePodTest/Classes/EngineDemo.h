@@ -10,4 +10,5 @@
 
 @interface EngineDemo : NSObject
 + (NSInteger)sumOfValue:(NSInteger)firstValue SecondValue:(NSInteger)secondValue;
++ (CGFloat)subtractValueFrom:(CGFloat)firstValue toSecondValue:(CGFloat)secondValue;
 @end
